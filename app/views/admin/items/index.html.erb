@@ -1,0 +1,15 @@
+<h2>商品一覧</h2>
+
+<% @items.each do |item| %>
+<div>
+  <span><%= item.id %></span>
+  <span><%= link_to item.name, admin_item_path(item.id)  %></span>
+  <span><%= item.price %></span>
+  
+<% @genres.each do |genre| %>
+  <span><%= genre.name %></span>
+<% end %>
+
+  <span><%= item.is_active %></span>
+  </div>
+<% end %>

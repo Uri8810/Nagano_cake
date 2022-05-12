@@ -1,0 +1,29 @@
+<h1>新規投稿</h1>
+<%= form_with model:@item,url:admin_items_path, local:true do |f| %>
+
+　<h4>画像</h4>
+　<%= f.attachment_field :image %>
+　
+  <h4>商品名</h4>
+  <%= f.text_field :name %>
+
+  <h4>カテゴリー</h4>
+  <%= f.select :name, Genre.all.map { |genre| [genre.name, genre.id] } %>
+  
+  <h4>商品説明</h4>
+  <%= f.text_area :introduction %>
+  
+  <h4>税抜価格</h4>
+  <%= f.text_field :price %>
+  
+  <h4>販売ステータス</h4>
+  <%= f.label :is_active, '販売中', value: 1 %>
+  <%= f.radio_button :is_active, '1' %>
+  
+  <%= f.label :is_active, '販売停止中', value: 0 %>
+  <%= f.radio_button :is_active, '0' %>
+  
+
+  <%= f.submit '投稿' %>
+
+<% end %>

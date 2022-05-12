@@ -6,8 +6,6 @@ class CreateOrderDatails < ActiveRecord::Migration[5.2]
       t.integer:amount
       t.integer:price
       t.integer:making_status
-      t.datetime:created_at
-      t.datetime:up
 
       t.timestamps
     end

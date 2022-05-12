@@ -15,12 +15,10 @@ Rails.application.routes.draw do
   get "/home/about" => "homes#about"
   
   resources :items,only: [:index, :show] 
-   namespace :admin do
-     resources :items
-  end
   
   namespace :admin do
     resources :genres,only: [:index, :create, :edit, :update]
+    resources :items
   end
 
 end
