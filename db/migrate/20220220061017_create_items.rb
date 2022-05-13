@@ -8,7 +8,7 @@ class CreateItems < ActiveRecord::Migration[5.2]
       t.integer:price
       t.boolean:is_active
       t.datetime:created_at
-      t.datetime:update
+      t.datetime:updated_at
 
       t.timestamps
     end
