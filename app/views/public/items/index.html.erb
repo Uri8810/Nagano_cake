@@ -1,0 +1,10 @@
+<h1>商品一覧</h1>
+
+<% @items.each do |item| %>
+<tr>
+  <th><%= attachment_image_tag @items, :image_id %> %></th>
+  <th><%= item.name %></th>
+  <th><%= item.price %></th>
+</tr>
+
+<% end %>

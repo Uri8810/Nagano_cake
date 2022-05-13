@@ -1,1 +1,12 @@
-<h4>詳細</h4>
+<h2>注文詳細</h2>
+<tr>
+  <P>画像</P>
+  <th><%= @item.name %></th>
+  <th><%= @item.introduction  %></th>
+  <th><%= @item.genre.name %></th>
+  <th><%= @item.price %></th>
+  <th><%= @item.is_active ? '販売中' : '販売停止中' %></th>
+</tr>
+
+<%= link_to "編集する", edit_admin_item_path(@item) %>
+

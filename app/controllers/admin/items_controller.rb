@@ -1,21 +1,19 @@
 class Admin::ItemsController < ApplicationController
   def index
-    @items = Item.all
-
-    @genre = Genre.new
+    @items = Item.page(params[:page]).reverse_order
     @genres = Genre.all
   end
 
   def new
-    @items = Item.all
     @item = Item.new
-    @genres = Genre.all
   end
 
   def create
-    @items = Item.new(item_params)
-    @items.save
-    redirect_to admin_items_path
+    @item = Item.new(item_params)
+    if @item.save
+      redirect_to admin_items_path
+    else render new
+    end
   end
 
   def show
@@ -23,10 +21,15 @@ class Admin::ItemsController < ApplicationController
   end
 
   def edit
+    @item = Item.find(params[:id])
   end
 
   def update
+    @item = Item.find(params[:id])
+    @item.update(item_params)
+    redirect_to admin_items_path
   end
+
 
   private
   def item_params

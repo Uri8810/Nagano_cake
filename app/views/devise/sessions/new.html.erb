@@ -1,6 +1,6 @@
-<h2>Log in</h2>
-
-<%= form_with model: @user, url: user_session_path, local: true do |f| %>
+<h2>ログイン</h2>
+<h4>会員の方はこちらからログイン</h4>
+<%= form_with model: @customers, url: customer_session_path, local: true do |f| %>
   <div class="field">
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
