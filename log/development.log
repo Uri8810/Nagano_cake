@@ -3525,3 +3525,1345 @@ Processing by Admin::ItemsController#show as HTML
 Completed 200 OK in 85ms (Views: 69.2ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for 180.146.48.2 at 2022-05-14 14:36:53 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.6.2) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.6.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 180.146.48.2 at 2022-05-14 14:36:55 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.6.2) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.6.2) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddLastNameToCustomers (20220306185451)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "customers" ADD "last_name" varchar[0m
+  ↳ db/migrate/20220306185451_add_last_name_to_customers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220306185451"]]
+  ↳ bin/rails:9
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to AddFirstNameToCustomers (20220306185607)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "customers" ADD "first_name" varchar[0m
+  ↳ db/migrate/20220306185607_add_first_name_to_customers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220306185607"]]
+  ↳ bin/rails:9
+  [1m[35m (8.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to AddLastNameKanaToCustomers (20220306185638)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "customers" ADD "last_name_kana" varchar[0m
+  ↳ db/migrate/20220306185638_add_last_name_kana_to_customers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220306185638"]]
+  ↳ bin/rails:9
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to AddFirstNameKanaToCustomers (20220306185705)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "customers" ADD "first_name_kana" varchar[0m
+  ↳ db/migrate/20220306185705_add_first_name_kana_to_customers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220306185705"]]
+  ↳ bin/rails:9
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to AddPostalCodeToCustomers (20220306185839)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "customers" ADD "postal_code" varchar[0m
+  ↳ db/migrate/20220306185839_add_postal_code_to_customers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220306185839"]]
+  ↳ bin/rails:9
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to AddTelephoneNumberToCustomers (20220306190102)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "customers" ADD "telephone_number" varchar[0m
+  ↳ db/migrate/20220306190102_add_telephone_number_to_customers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220306190102"]]
+  ↳ bin/rails:9
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to AddIsActiveToCustomers (20220306190158)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "customers" ADD "is_active" boolean[0m
+  ↳ db/migrate/20220306190158_add_is_active_to_customers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220306190158"]]
+  ↳ bin/rails:9
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to AddAddressToCustomers (20220306190354)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "customers" ADD "address" varchar[0m
+  ↳ db/migrate/20220306190354_add_address_to_customers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20220306190354"]]
+  ↳ bin/rails:9
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 180.146.48.2 at 2022-05-14 14:38:03 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6157ms (Views: 6144.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-14 14:38:13 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 95ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-14 14:38:24 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items/new" for 180.146.48.2 at 2022-05-14 14:38:28 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mGenre Load (0.2ms)[0m  [1m[34mSELECT "genres".* FROM "genres"[0m
+  ↳ app/views/admin/items/new.html.erb:18
+  Rendered admin/items/new.html.erb within layouts/application (113.2ms)
+Completed 200 OK in 212ms (Views: 190.4ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/admin/items" for 180.146.48.2 at 2022-05-14 14:38:59 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"inAXIDaidTjBxwUulrMQCxTnLhyjQWsjdnqMwJWkKXJF5cY9UI2K92qH4ZJWwoiCd2w73GtVj0qWfqDMNax7xw==", "item"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00007f5215ab1530 @tempfile=#<Tempfile:/tmp/RackMultipart20220514-7197-u7hv8x.jpg>, @original_filename="446382_m.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"446382_m.jpg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"野菜", "introduction"=>"野菜の説明", "genre_id"=>"1", "price"=>"1122", "is_active"=>"1"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:13
+  [1m[36mGenre Load (0.2ms)[0m  [1m[34mSELECT  "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/items_controller.rb:13
+  [1m[36mItem Create (1.7ms)[0m  [1m[32mINSERT INTO "items" ("genre_id", "name", "image_id", "introduction", "price", "is_active", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["genre_id", 1], ["name", "野菜"], ["image_id", "144af7c7d1fe9b3e621877f86b5d5183cc2c0ced7d79572d90d3a1125821"], ["introduction", "野菜の説明"], ["price", 1122], ["is_active", 1], ["created_at", "2022-05-14 14:38:59.981954"], ["updated_at", "2022-05-14 14:38:59.981954"]]
+  ↳ app/controllers/admin/items_controller.rb:13
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:13
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 43ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/admin/items" for 180.146.48.2 at 2022-05-14 14:39:00 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 25], ["OFFSET", 0]]
+  ↳ app/views/admin/items/index.html.erb:10
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT  "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:14
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:19
+  Rendered admin/items/index.html.erb within layouts/application (14.4ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    11: <tr>
+    12:     <th><%= item.id %></th>
+    13:     <th><%= link_to item.name, admin_item_path(item.id) %></th>
+    14:     <th><%= item.genre.name %></th>
+    15:     <th><%= item.price %></th>
+    16:     <th><%= item.is_active ? '有効' : '退会'%></th>
+    17: </tr>
+  
+app/views/admin/items/index.html.erb:14:in `block in _app_views_admin_items_index_html_erb___1919843631303812903_69995269429960'
+app/views/admin/items/index.html.erb:10:in `_app_views_admin_items_index_html_erb___1919843631303812903_69995269429960'
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items" WHERE "items"."genre_id" IS NULL[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mItem Destroy (7.2ms)[0m  [1m[31mDELETE FROM "items" WHERE "items"."id" = ?[0m  [["id", 1]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mItem Destroy (0.1ms)[0m  [1m[31mDELETE FROM "items" WHERE "items"."id" = ?[0m  [["id", 2]]
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mItem Destroy (0.1ms)[0m  [1m[31mDELETE FROM "items" WHERE "items"."id" = ?[0m  [["id", 3]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mItem Destroy (0.1ms)[0m  [1m[31mDELETE FROM "items" WHERE "items"."id" = ?[0m  [["id", 4]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 180.146.48.2 at 2022-05-14 15:42:55 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 861ms (Views: 850.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-14 15:42:58 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 132ms (Views: 130.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items/new" for 180.146.48.2 at 2022-05-14 15:43:08 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT "genres".* FROM "genres"[0m
+  ↳ app/views/admin/items/new.html.erb:18
+  Rendered admin/items/new.html.erb within layouts/application (107.1ms)
+Completed 200 OK in 302ms (Views: 286.7ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/admin/items" for 180.146.48.2 at 2022-05-14 15:43:43 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cSVTtUlypMRlitHm4NwXUYVq9/3erCBh/3ZmIZ5xl7e+sIKoL11bC87KNVogrY/Y5uHiPRa4xAgfckotPnnFAg==", "item"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x00007f4f7d852770 @tempfile=#<Tempfile:/tmp/RackMultipart20220514-1568-1cx7533.jpg>, @original_filename="446382_m.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"446382_m.jpg\"\r\nContent-Type: image/jpeg\r\n">, "name"=>"野菜", "introduction"=>"野菜", "genre_id"=>"1", "price"=>"1221", "is_active"=>"1"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:13
+  [1m[36mGenre Load (0.2ms)[0m  [1m[34mSELECT  "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/items_controller.rb:13
+  [1m[36mItem Create (1.9ms)[0m  [1m[32mINSERT INTO "items" ("genre_id", "name", "image_id", "introduction", "price", "is_active", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["genre_id", 1], ["name", "野菜"], ["image_id", "aecdbe348e022bb77ff546b732936d1c58207d2d799dfa830cb290159453"], ["introduction", "野菜"], ["price", 1221], ["is_active", 1], ["created_at", "2022-05-14 15:43:43.614848"], ["updated_at", "2022-05-14 15:43:43.614848"]]
+  ↳ app/controllers/admin/items_controller.rb:13
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:13
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 56ms (ActiveRecord: 7.2ms)
+
+
+Started GET "/admin/items" for 180.146.48.2 at 2022-05-14 15:43:43 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 25], ["OFFSET", 0]]
+  ↳ app/views/admin/items/index.html.erb:10
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT  "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:14
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:19
+  [1m[36mCACHE Genre Load (0.0ms)[0m  [1m[34mSELECT  "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:14
+  Rendered admin/items/index.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 157ms (Views: 154.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/items/6" for 180.146.48.2 at 2022-05-14 15:43:55 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT  "items".* FROM "items" WHERE "items"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/admin/items_controller.rb:20
+  Rendering admin/items/show.html.erb within layouts/application
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT  "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/show.html.erb:6
+  Rendered admin/items/show.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 207ms (Views: 201.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/items" for 180.146.48.2 at 2022-05-14 15:46:37 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT  "items".* FROM "items" ORDER BY "items"."id" DESC LIMIT ? OFFSET ?[0m  [["LIMIT", 25], ["OFFSET", 0]]
+  ↳ app/views/admin/items/index.html.erb:10
+  [1m[36mGenre Load (0.1ms)[0m  [1m[34mSELECT  "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:14
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:19
+  [1m[36mCACHE Genre Load (0.0ms)[0m  [1m[34mSELECT  "genres".* FROM "genres" WHERE "genres"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:14
+  Rendered admin/items/index.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 181ms (Views: 178.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-17 13:02:30 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 735ms (Views: 724.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-17 13:03:49 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 82ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_up" for 180.146.48.2 at 2022-05-17 13:03:59 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#new as HTML
+  Rendering customers/registrations/new.html.erb within layouts/application
+  Rendered customers/shared/_error_messages.html.erb (0.4ms)
+  Rendered customers/shared/_links.html.erb (3.1ms)
+  Rendered customers/registrations/new.html.erb within layouts/application (48.1ms)
+Completed 200 OK in 161ms (Views: 140.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-17 13:05:32 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (0.9ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 111ms (Views: 109.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-17 13:12:12 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (0.8ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 164ms (Views: 157.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-17 13:15:18 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (0.7ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 90ms (Views: 88.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-17 13:26:56 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (0.8ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 99ms (Views: 98.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-17 13:27:52 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (0.8ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 85ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/customers/sign_in" for 180.146.48.2 at 2022-05-17 13:27:54 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pF+mjUlYpuAoIcxgmqXRCBD9DgAF8EctJBsmnzSog1pryneQL3dZL4NhKNxa1EmBc3YbwM3ko0TEHwqTlKDR7w==", "customer"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"ログイン"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Customers::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pF+mjUlYpuAoIcxgmqXRCBD9DgAF8EctJBsmnzSog1pryneQL3dZL4NhKNxa1EmBc3YbwM3ko0TEHwqTlKDR7w==", "customer"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"ログイン"}
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (0.8ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 94ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-17 13:34:08 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (0.8ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 91ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-17 13:35:33 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (0.8ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 95ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-17 14:37:42 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/sessions/new.html.erb within layouts/application (1044.9ms)
+Completed 500 Internal Server Error in 1080ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `customer_sessions_path' for #<#<Class:0x00007fcd15504a08>:0x00007fcd1510b820>
+Did you mean?  customer_session_path
+               customer_session
+               customer_session_url
+               customer_password_path):
+    1: <h2>ログイン</h2>
+    2: 
+    3: <%= form_with model: @customer, url: customer_sessions_path, local: true do |f| %>
+    4: 
+    5: <div class="d-flex flex-column">
+    6:   <div class="field">
+  
+app/views/customers/sessions/new.html.erb:3:in `_app_views_customers_sessions_new_html_erb___1487054924940599103_70259399214340'
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-17 14:39:21 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (1.9ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (41.9ms)
+Completed 200 OK in 674ms (Views: 651.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 03:33:15 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 609ms (Views: 599.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 03:33:17 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 145ms (Views: 143.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-22 03:33:30 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (2.3ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (50.8ms)
+Completed 200 OK in 226ms (Views: 198.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/customers" for 180.146.48.2 at 2022-05-22 03:34:00 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as HTML
+Completed 404 Not Found in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Customer without an ID):
+  
+app/controllers/public/customers_controller.rb:3:in `show'
+Started GET "/customers/sign_up" for 180.146.48.2 at 2022-05-22 03:34:10 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#new as HTML
+  Rendering customers/registrations/new.html.erb within layouts/application
+  Rendered customers/shared/_error_messages.html.erb (0.4ms)
+  Rendered customers/shared/_links.html.erb (0.9ms)
+  Rendered customers/registrations/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/customers" for 180.146.48.2 at 2022-05-22 03:35:05 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ignVfBKA75IaVPwp+qZSdubXNE8TM3x2Wv/U+ggNfNx7uAe0fWvgcz/84CoSP0fBXdXGMF15Ft2clgYXHaHetg==", "customer"=>{"first_name"=>"とと", "last_name"=>"とち", "first_name_kana"=>"トト", "last_name_kana"=>"トチ", "email"=>"a@a", "postal_code"=>"123456", "address"=>"ここです", "telephone_number"=>"12345", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+Unpermitted parameters: :first_name, :last_name, :first_name_kana, :last_name_kana, :postal_code, :address, :telephone_number
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mCustomer Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "a@a"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mCustomer Create (2.0ms)[0m  [1m[32mINSERT INTO "customers" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "a@a"], ["encrypted_password", "$2a$12$iD.FlvDfXtYcJYDzY73hLuRWGtIW1h/IUkCktR0.5hM.lgHHA5GWK"], ["created_at", "2022-05-22 03:35:05.816101"], ["updated_at", "2022-05-22 03:35:05.816101"]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 355ms (ActiveRecord: 6.4ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 03:35:06 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 90ms (Views: 88.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/customers" for 180.146.48.2 at 2022-05-22 03:47:13 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Customers::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+tC0ceIGgOMdbiEBqpyYkh/3WL7g4I8daF4S6MKYZfk1RWVshCl/LLYuxb1q7QAbfHxNfij0a3SIWj7kYpA3TA==", "customer"=>{"first_name"=>"とと", "last_name"=>"とち", "first_name_kana"=>"トト", "last_name_kana"=>"トチ", "email"=>"a@a", "postal_code"=>"123456", "address"=>"ここです", "telephone_number"=>"12345", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 27ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 03:47:14 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.6ms)
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 591ms (Views: 590.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/customers" for 180.146.48.2 at 2022-05-22 03:49:24 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+tC0ceIGgOMdbiEBqpyYkh/3WL7g4I8daF4S6MKYZfk1RWVshCl/LLYuxb1q7QAbfHxNfij0a3SIWj7kYpA3TA==", "customer"=>{"first_name"=>"とと", "last_name"=>"とち", "first_name_kana"=>"トト", "last_name_kana"=>"トチ", "email"=>"a@a", "postal_code"=>"123456", "address"=>"ここです", "telephone_number"=>"12345", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 20ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 03:49:24 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 113ms (Views: 111.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/customers/sign_up" for 180.146.48.2 at 2022-05-22 05:58:58 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Customers::RegistrationsController#new as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 38ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 05:58:58 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (1.2ms)
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 563ms (Views: 555.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/customers/sign_up" for 180.146.48.2 at 2022-05-22 05:59:03 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#new as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 05:59:03 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 77ms (Views: 75.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/about" for 180.146.48.2 at 2022-05-22 05:59:05 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#about as HTML
+  Rendering public/homes/about.html.erb within layouts/application
+  Rendered public/homes/about.html.erb within layouts/application (0.4ms)
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 99ms (Views: 97.0ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/customers/sign_out" for 180.146.48.2 at 2022-05-22 05:59:06 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"nSNXepMl2SK5wQycs4wtBaYNrsxOIUxexmNczK9rrMVStoZn9Qom7RKB6CBz/bWMxYa7DIY1qDcmZ3DAD2P+cA=="}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 17ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 05:59:07 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 76ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_up" for 180.146.48.2 at 2022-05-22 05:59:08 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#new as HTML
+  Rendering customers/registrations/new.html.erb within layouts/application
+  Rendered customers/shared/_error_messages.html.erb (0.5ms)
+  Rendered customers/shared/_links.html.erb (2.1ms)
+  Rendered customers/registrations/new.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 108ms (Views: 107.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/customers" for 180.146.48.2 at 2022-05-22 05:59:39 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W2QGr514O6H4Iv+naQwbh/SGlJStGCDR6o9CMepjOy8i7dM/MjKCPcBgGOv4Tw3Rro56IFN1em43C0EeeFI2Bg==", "customer"=>{"first_name"=>"とと", "last_name"=>"とち", "first_name_kana"=>"トト", "last_name_kana"=>"トチ", "email"=>"i@i", "postal_code"=>"12111", "address"=>"111", "telephone_number"=>"0090", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+Unpermitted parameters: :first_name, :last_name, :first_name_kana, :last_name_kana, :postal_code, :address, :telephone_number
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mCustomer Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "i@i"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mCustomer Create (2.6ms)[0m  [1m[32mINSERT INTO "customers" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "i@i"], ["encrypted_password", "$2a$12$mrRKvNZv/yztca4OnwNzd.w2A2SqewWQG1rA9QqyRbYyA79Gr9Esq"], ["created_at", "2022-05-22 05:59:39.787085"], ["updated_at", "2022-05-22 05:59:39.787085"]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 362ms (ActiveRecord: 8.5ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 05:59:40 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.4ms)
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 77ms (Views: 76.3ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/customers" for 180.146.48.2 at 2022-05-22 06:01:01 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W2QGr514O6H4Iv+naQwbh/SGlJStGCDR6o9CMepjOy8i7dM/MjKCPcBgGOv4Tw3Rro56IFN1em43C0EeeFI2Bg==", "customer"=>{"first_name"=>"とと", "last_name"=>"とち", "first_name_kana"=>"トト", "last_name_kana"=>"トチ", "email"=>"i@i", "postal_code"=>"12111", "address"=>"111", "telephone_number"=>"0090", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 06:01:01 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 95ms (Views: 93.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/customers" for 180.146.48.2 at 2022-05-22 06:41:15 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Customers::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RgFSzzYhQyzkGPUJV2sa7WGUkFEJUyNxEVWb0dT8KYOZArYPshdIvvCeajTZPkMvl9kDx5mXa98ReZ97l69rQA==", "customer"=>{"first_name"=>"とと", "last_name"=>"とち", "first_name_kana"=>"トト", "last_name_kana"=>"トチ", "email"=>"i@i", "postal_code"=>"12111", "address"=>"111", "telephone_number"=>"0090", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 46ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 06:41:16 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (1.2ms)
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 590ms (Views: 588.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/customers/sign_up" for 180.146.48.2 at 2022-05-22 06:41:21 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#new as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 06:41:21 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.7ms)
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 128ms (Views: 125.9ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/customers/sign_out" for 180.146.48.2 at 2022-05-22 06:41:25 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"nSNXepMl2SK5wQycs4wtBaYNrsxOIUxexmNczK9rrMVStoZn9Qom7RKB6CBz/bWMxYa7DIY1qDcmZ3DAD2P+cA=="}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 5ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.2.6.2) lib/action_controller/metal/request_forgery_protection.rb:215:in `handle_unverified_request'
+actionpack (5.2.6.2) lib/action_controller/metal/request_forgery_protection.rb:247:in `handle_unverified_request'
+devise (4.8.1) lib/devise/controllers/helpers.rb:255:in `handle_unverified_request'
+actionpack (5.2.6.2) lib/action_controller/metal/request_forgery_protection.rb:242:in `verify_authenticity_token'
+activesupport (5.2.6.2) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.6.2) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.6.2) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.6.2) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.6.2) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.6.2) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.6.2) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.6.2) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.6.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.6.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.6.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.6.2) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.6.2) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.6.2) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.6.2) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.6.2) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.6.2) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.6.2) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.6.2) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.6.2) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.6.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.6.2) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.6.2) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.6.2) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (5.2.6.2) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (5.2.6.2) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.6.2) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.6.2) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.6.2) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.6.2) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6.2) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6.2) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6.2) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6.2) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 180.146.48.2 at 2022-05-22 06:41:55 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 518ms (Views: 510.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 06:41:56 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.4ms)
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 140ms (Views: 137.9ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/customers/sign_out" for 180.146.48.2 at 2022-05-22 06:41:59 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"riUYG1AfufBih34ygAESz+iw1fh5Drl09qQFEmdHj4lxJvzb1CmyYnYB4Q8OVEsNHv1GbunK8dr2iAG4JBTNSg=="}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 30ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 06:41:59 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 95ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_up" for 180.146.48.2 at 2022-05-22 06:42:01 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#new as HTML
+  Rendering customers/registrations/new.html.erb within layouts/application
+  Rendered customers/shared/_error_messages.html.erb (0.4ms)
+  Rendered customers/shared/_links.html.erb (15.2ms)
+  Rendered customers/registrations/new.html.erb within layouts/application (40.8ms)
+Completed 200 OK in 181ms (Views: 180.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/customers" for 180.146.48.2 at 2022-05-22 06:42:48 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GDI6H6j+WXhyb4iLdrUeYo/kS1xI6m4MnGFWXxzBtAY5Yg5x8er5NynNcacz0J3xL8zFdJD5ZmTmC+9LrvYpDg==", "customer"=>{"first_name"=>"test", "last_name"=>"test", "first_name_kana"=>"テスト", "last_name_kana"=>"テスト", "email"=>"t@t", "postal_code"=>"124", "address"=>"test", "telephone_number"=>"1234", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+Unpermitted parameters: :first_name, :last_name, :first_name_kana, :last_name_kana, :postal_code, :address, :telephone_number
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mCustomer Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "t@t"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mCustomer Create (2.4ms)[0m  [1m[32mINSERT INTO "customers" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "t@t"], ["encrypted_password", "$2a$12$U2nC9rkNslVg6qFLHxcqsuLpsL5Gih5g0H5QBvj/Hj4lIiInOY7Qa"], ["created_at", "2022-05-22 06:42:48.471476"], ["updated_at", "2022-05-22 06:42:48.471476"]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/customers.3
+Completed 302 Found in 338ms (ActiveRecord: 6.9ms)
+
+
+Started GET "/customers.3" for 180.146.48.2 at 2022-05-22 06:42:48 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as 
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Customer without an ID):
+  
+app/controllers/public/customers_controller.rb:3:in `show'
+Started GET "/" for 180.146.48.2 at 2022-05-22 07:18:49 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 646ms (Views: 634.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 07:18:50 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.4ms)
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 146ms (Views: 144.0ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/customers/sign_out" for 180.146.48.2 at 2022-05-22 07:18:54 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Wi/LlKLvn8qzYMjJ0Ffp0zp1h4lcOZ024bW89gejft7AbM7sqii4uuRlfBsvPvvndJC9vkAGj4uf+HSThuRrbQ=="}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 43ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 07:18:54 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_up" for 180.146.48.2 at 2022-05-22 07:18:55 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#new as HTML
+  Rendering customers/registrations/new.html.erb within layouts/application
+  Rendered customers/shared/_error_messages.html.erb (0.4ms)
+  Rendered customers/shared/_links.html.erb (4.3ms)
+  Rendered customers/registrations/new.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 185ms (Views: 183.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/customers" for 180.146.48.2 at 2022-05-22 07:19:36 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YalVpzyZw0/VUyFyj2xvb9nwPDzVwW57KYfFH2lZ5LBDQSYBZ1mkTVe6Fw/Y0p1pdBNAsBDr23K+up1S5ervzA==", "customer"=>{"first_name"=>"テスト", "last_name"=>"テスト", "first_name_kana"=>"test", "last_name_kana"=>"test", "email"=>"rw@rw", "postal_code"=>"1111", "address"=>"2222", "telephone_number"=>"3333", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+Unpermitted parameters: :first_name, :last_name, :first_name_kana, :last_name_kana, :postal_code, :address, :telephone_number
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mCustomer Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "rw@rw"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mCustomer Create (2.3ms)[0m  [1m[32mINSERT INTO "customers" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "rw@rw"], ["encrypted_password", "$2a$12$o5rGp.gvGsKM851vkt/5KeD//1LWBgS.P/QgFLPveIGLEqJTlqP8q"], ["created_at", "2022-05-22 07:19:36.396206"], ["updated_at", "2022-05-22 07:19:36.396206"]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Completed 500 Internal Server Error in 3985222ms (ActiveRecord: 7.3ms)
+
+
+  
+Errno::EIO (Input/output error @ io_writev - <STDOUT>):
+  
+app/controllers/customers/registrations_controller.rb:56:in `after_sign_up_path_for'
+Started POST "/customers" for 180.146.48.2 at 2022-05-22 09:07:43 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Customers::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cFDlfCydGFeqwQx4oqdiVbgZlAbObe/zAZHWZj5QeUVpVgr3kWVHu0PtQau9JKTvYozvtRsvrDvpycW0+pbtMg==", "customer"=>{"first_name"=>"テスト", "last_name"=>"テスト", "first_name_kana"=>"test", "last_name_kana"=>"test", "email"=>"rw@rw", "postal_code"=>"1111", "address"=>"2222", "telephone_number"=>"3333", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+Unpermitted parameters: :first_name, :last_name, :first_name_kana, :last_name_kana, :postal_code, :address, :telephone_number
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mCustomer Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "rw@rw"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  Rendering customers/registrations/new.html.erb within layouts/application
+  Rendered customers/shared/_error_messages.html.erb (1.5ms)
+  Rendered customers/shared/_links.html.erb (2.1ms)
+  Rendered customers/registrations/new.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 1258ms (Views: 758.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/customers" for 180.146.48.2 at 2022-05-22 09:08:16 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eoz2OXkmBZA0HWnLgEqFEGq4Svh108HOvg369ZYK9iRjihmyxN5afN0xJBifyUOqsC0xS6CRggZWVeknUsxiUw==", "customer"=>{"first_name"=>"tete", "last_name"=>"tete", "first_name_kana"=>"o", "last_name_kana"=>"o", "email"=>"w@w", "postal_code"=>"111", "address"=>"222", "telephone_number"=>"333", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"新規登録"}
+Unpermitted parameters: :first_name, :last_name, :first_name_kana, :last_name_kana, :postal_code, :address, :telephone_number
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mCustomer Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "customers" WHERE "customers"."email" = ? LIMIT ?[0m  [["email", "w@w"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[36mCustomer Create (2.4ms)[0m  [1m[32mINSERT INTO "customers" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "w@w"], ["encrypted_password", "$2a$12$l3DbBRbum0SyxPpVpOrEN.T9KzcYBMRpNLLTtcc9CsFsiuZS0.ACS"], ["created_at", "2022-05-22 09:08:17.250534"], ["updated_at", "2022-05-22 09:08:17.250534"]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/customers.5
+Completed 302 Found in 1120372ms (ActiveRecord: 6.1ms)
+
+
+Started GET "/customers" for 180.146.48.2 at 2022-05-22 09:27:18 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Public::CustomersController#show as HTML
+Completed 404 Not Found in 9ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Customer without an ID):
+  
+app/controllers/public/customers_controller.rb:3:in `show'
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-22 09:27:22 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (1.3ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 644ms (Views: 629.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/customers/sign_in" for 180.146.48.2 at 2022-05-22 09:27:45 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DsnKiY2mzumnZQY0vTew+0DKtWhgHlDrYp7AdofGuLBQTIYL4QhxpmJo7v5jCQ2GllSo029Zx1JGc4Od57xCdQ==", "customer"=>{"email"=>"a@a", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"ログイン"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."email" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["email", "a@a"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 329ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 09:27:45 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 92ms (Views: 90.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-22 12:01:56 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Processing by Customers::SessionsController#new as HTML
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/customers.1
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 46ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/customers.1" for 180.146.48.2 at 2022-05-22 12:01:56 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as 
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Customer without an ID):
+  
+app/controllers/public/customers_controller.rb:3:in `show'
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-22 12:02:02 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/customers.1
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/customers.1" for 180.146.48.2 at 2022-05-22 12:02:02 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as 
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Customer without an ID):
+  
+app/controllers/public/customers_controller.rb:3:in `show'
+Started GET "/customers/sign_up" for 180.146.48.2 at 2022-05-22 12:02:04 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::RegistrationsController#new as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/customers.1
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/customers.1" for 180.146.48.2 at 2022-05-22 12:02:04 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as 
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Customer without an ID):
+  
+app/controllers/public/customers_controller.rb:3:in `show'
+Started GET "/" for 180.146.48.2 at 2022-05-22 12:02:11 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+Started GET "/" for 180.146.48.2 at 2022-05-22 12:02:11 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.4ms)
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 932ms (Views: 923.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 969ms (Views: 928.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 12:02:13 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.4ms)
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 119ms (Views: 117.9ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/customers/sign_out" for 180.146.48.2 at 2022-05-22 12:02:15 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"suR/Vjezy1rzbn58OfrlwzlAF8XKyGyv1T+8m2/Fw/br4+NXUL57bts3a8Hy83o6YBEhRQXig9cfGhUr6vKoJQ=="}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 19ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 12:02:15 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-22 12:02:17 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (3.1ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 146ms (Views: 144.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/customers/sign_in" for 180.146.48.2 at 2022-05-22 12:02:34 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PZIqZol/2WHK5WOcaX6+VzrzNVVpEYDaQ0q0Ds4FnojaMLk+07wsv0SfGpl7ziHBLLUQ77osvgP2cZzot9CpcA==", "customer"=>{"email"=>"a@a", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"ログイン"}
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."email" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["email", "a@a"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/customers.1
+Completed 302 Found in 337ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/customers.1" for 180.146.48.2 at 2022-05-22 12:02:35 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as 
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Customer without an ID):
+  
+app/controllers/public/customers_controller.rb:3:in `show'
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-22 12:03:20 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/customers.1
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-22 12:03:24 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/customers.1
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/customers.1" for 180.146.48.2 at 2022-05-22 12:03:24 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as 
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Customer without an ID):
+  
+app/controllers/public/customers_controller.rb:3:in `show'
+Started GET "/" for 180.146.48.2 at 2022-05-22 12:03:31 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 81ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 12:03:32 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+Completed 200 OK in 100ms (Views: 99.4ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/customers/sign_out" for 180.146.48.2 at 2022-05-22 12:03:33 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7qW2/NiU9lqjqjGQ8F5UmZAUp+YDvyEaA1WWBytyqDCVSCmSfs0xF5Jk/FXGknqzXK+26Z1dYSIlp4wgxSA1NQ=="}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 180.146.48.2 at 2022-05-22 12:03:34 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 76ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customers/sign_in" for 180.146.48.2 at 2022-05-22 12:03:35 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#new as HTML
+  Rendering customers/sessions/new.html.erb within layouts/application
+  Rendered customers/shared/_links.html.erb (0.7ms)
+  Rendered customers/sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/customers/sign_in" for 180.146.48.2 at 2022-05-22 12:03:45 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Customers::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0Q2sRZ3sjvGpJd9JRoZe+XvCiBe7Y1E9p8xYuGffx+W3BDSLPwdbLDOMX1qxQB+8KaJJG9nsA8QLTqQH22DvOg==", "customer"=>{"email"=>"a@a", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"ログイン"}
+  [1m[36mCustomer Load (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."email" = ? ORDER BY "customers"."id" ASC LIMIT ?[0m  [["email", "a@a"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6.2/lib/active_record/log_subscriber.rb:98
+Redirected to https://0d616f6b3f914c13bf90a3d349b1a648.vfs.cloud9.us-east-1.amazonaws.com/customers.1
+Completed 302 Found in 320ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/customers.1" for 180.146.48.2 at 2022-05-22 12:03:46 +0000
+Cannot render console from 180.146.48.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as 
+Completed 404 Not Found in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Customer without an ID):
+  
+app/controllers/public/customers_controller.rb:3:in `show'
