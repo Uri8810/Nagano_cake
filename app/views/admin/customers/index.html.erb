@@ -1,20 +1,18 @@
 <h2>会員一覧</h2>
-<%= form_with model: @customer, url: admin_customers_path, local: true do |f| %>
- <tr>
-     <th>会員ID</th>
-     <th>氏名</th>
-     <th>メールアドレス</th>
-     <th>ステータス</th>
- </tr>
+<tr>
+    <th>会員ID</th>
+    <th>氏名</th>
+    <th>メールアドレス</th>
+    <th>ステータス</th>
+</tr>
 
- <% @customers.each do |customer| %>
- <tr>
-     <th><%= customer.id %></th>
-     <th><<%= customer.full_name %></th>
-     <th><%= customer.email %></th>
-     <th><%= customer.is_active ? '有効' : '退会'%></th>
- </tr>
+<% @customers.each do |item| %>
+<tr>
+    <th><%= customer.id %></th>
+    <th><%= link_to customer.name, admin_customer_path(customer.id) %></th>
+    <th><%= customer.email %></th>
+    <th><%= customer.is_active ? '有効' : '退会'%></th>
+</tr>
 
- <%= paginate @customers %>
- <% end %>
+<%= paginate @customers %>
 <% end %>
