@@ -11,6 +11,7 @@ class Public::CustomersController < ApplicationController
   end
 
   def create
+    
   end
 
   def withdraw
@@ -18,6 +19,6 @@ class Public::CustomersController < ApplicationController
   
   private
   def customer_params
-    params.require(:customer).permit(:first_name,:last_name,:first_name_kana,:last_name_kana,:postal_code,:telephone_number, :is_active, :address)
+    params.require(:customer).permit(:customer_id,:first_name,:last_name,:first_name_kana,:last_name_kana,:postal_code,:telephone_number, :is_active, :address)
   end
 end
