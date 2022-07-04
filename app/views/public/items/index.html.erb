@@ -2,8 +2,8 @@
 
 <% @items.each do |item| %>
 <tr>
-
-  <th><%= item.name %></th>
+  <th><%= image_tag attachment_url(item, :image, :fill, 100, 100, format: "jpg")  %></th>
+  <th><%= link_to item.name, item_path(item.id) %></th>
   <th><%= item.price %></th>
 </tr>
 
